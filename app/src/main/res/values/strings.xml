@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">My Career Assistant</string>
+    <string name="i_want_to_work">i want to work</string>
+    <string name="i_want_to_hire">i want to hire</string>
+    <string name="email">Email</string>
+    <array name="City">
+        <item>Select City</item>
+        <item>Islamabad</item>
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Faisalabad</item>
+        <item>Gujranwala</item>
+        <item>Multan</item>
+        <item>Peshawar</item>
+        <item>Rawalpindi</item>
+        <item>Sialkot</item>
+        <item>Abbaspur</item>
+        <item>Abbottabad</item>
+        <item>Abdul Hakim</item>
+        <item>Ali Chak</item>
+        <item>Attock</item>
+        <item>Badin</item>
+        <item>Bahawalnagar</item>
+        <item>Bahawalpur</item>
+        <item>Balakot</item>
+        <item>Sawat</item>
+        <item>Other City</item>
+    </array>
+    <array name="Industry">
+        <item>Select Industry</item>
+        <item>Accounting/Taxation</item>
+        <item>Advertising</item>
+        <item>Agriculture/fertilizer/pesticide</item>
+        <item>Architecture/ Interior Design</item>
+        <item>Automobile</item>
+        <item>Banking/Finance</item>
+        <item>Event Management</item>
+        <item>Food and beverages</item>
+        <item>Government</item>
+        <item>Healthcare/Hospital/Medical</item>
+        <item>Importers/Distributors/Exporters</item>
+        <item>Information Technology(IT)</item>
+        <item>Insurance</item>
+        <item>Law firms/Legal</item>
+        <item>Manufacturing</item>
+        <item>N G O</item>
+        <item>Real Estate/Property</item>
+        <item>Tiles and Ceramics</item>
+    </array>
+    <array name="jobType">
+        <item>Select Job Type</item>
+        <item>Permanent</item>
+        <item>Contract</item>
+        <item>Internship</item>
+    </array>
+    <array name="education">
+        <item>Select Education</item>
+        <item>Matriculation</item>
+        <item>Intermediate</item>
+        <item>Bachelor</item>
+        <item>Master</item>
+        <item>Master of Philosophy(MPhil)</item>
+        <item>Master of Science(MS)</item>
+        <item>Doctor of Philosophy</item>
+    </array>
+    <array name="age">
+        <item>Select Age</item>
+        <item>18 to 25</item>
+        <item>26 to 35</item>
+        <item>36 to 45</item>
+        <item>46 to Above</item>
+    </array>
+    <array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>No Preference</item>
+    </array>
+    <string name="login">Login</string>
+    <string name="do_not_have_an_account">Do not have an account</string>
+    <string name="name">Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_no">Phone No</string>
+    <string name="select_cv">Select CV</string>
+    <string name="no_cv_selected">No Cv found Please select CV first</string>
+    <string name="company_name">Organization Name</string>
+    <string name="address">Address</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_main_activityfor_employer">My Career Assistent</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_new_job">Post new Job</string>
+    <string name="job_title">Job Title</string>
+    <string name="post_job">Post Job</string>
+    <string name="image_not_found">Image not found</string>
+    <string name="title_activity_main_job_seeker">My Career Assistent</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="my_jobs">My Job</string>
+    <string name="favorites_list">Favorites List</string>
+    <string name="update_cv">Upload CV</string>
+    <string name="my_profile">My Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="exit">Exit</string>
+    <string name="logo">Logo</string>
+    <string name="application">Application</string>
+    <string name="applaction">Applaction</string>
+    <string name="gender">gender</string>
+    <string name="typejob">typejob</string>
+    <string name="city">City</string>
+    <string name="age">age</string>
+    <string name="apply">Apply</string>
+    <string name="favorites">favorites</string>
+    <string name="education">Education</string>
+    <string name="date">date</string>
+
+</resources>

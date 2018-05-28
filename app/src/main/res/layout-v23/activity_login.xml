@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.vu.mc160400799.mycareerassistant.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/image_not_found"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/career" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="175dp"
+        android:gravity="fill_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:allowUndo="false"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="casual"
+            android:hapticFeedbackEnabled="false"
+            android:onClick="login"
+            android:text="@string/login"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="270dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="casual"
+        android:onClick="createAccount"
+        android:text="@string/do_not_have_an_account"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

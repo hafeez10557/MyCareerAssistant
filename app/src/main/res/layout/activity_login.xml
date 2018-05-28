@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:windowSoftInputMode="adjustPan|adjustResize"
+    android:keepScreenOn="false"
+    android:orientation="vertical"
+    tools:context="com.vu.mc160400799.mycareerassistant.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/career"
+        android:contentDescription="@string/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:accessibilityLiveRegion="@android:integer/config_shortAnimTime"
+            android:background="@drawable/border"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:cursorVisible="true"
+            android:drawableStart="@android:drawable/ic_lock_idle_lock"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:linksClickable="false"
+            android:nestedScrollingEnabled="false"
+            android:nextFocusDown="@id/loginbtn"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:allowUndo="false"
+            android:background="@drawable/border"
+            android:fontFamily="casual"
+            android:hapticFeedbackEnabled="false"
+            android:onClick="login"
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:targetApi="m" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="casual"
+        android:onClick="createAccount"
+        android:text="@string/do_not_have_an_account"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

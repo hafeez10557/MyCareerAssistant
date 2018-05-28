@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "410221545430",
+    "firebase_url": "https://mycareerassistant-9b2bf.firebaseio.com",
+    "project_id": "mycareerassistant-9b2bf",
+    "storage_bucket": "mycareerassistant-9b2bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410221545430:android:0ba06e187db48f1f",
+        "android_client_info": {
+          "package_name": "com.vu.mc160400799.mycareerassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410221545430-d4tmdnaghn2e1dk8qmr2favm48ik8d7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vu.mc160400799.mycareerassistant",
+            "certificate_hash": "9c4d744e78f00759e97f87712d84749b96234fe1"
+          }
+        },
+        {
+          "client_id": "410221545430-tq7bp5t8ni4hqfitgpj8a4jpuj67va7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTGGmAHPqPaUTyeHFFYxGtytcLhHMJW58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410221545430-tq7bp5t8ni4hqfitgpj8a4jpuj67va7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

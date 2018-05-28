@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vu.mc160400799.mycareerassistant">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:icon="@mipmap/launchericon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launchericon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".JobSeekerRegistrationActivity" />
+        <activity android:name=".EmployerRegistrationActivity" />
+        <activity
+            android:name=".MainActivityforEmployer"
+            android:label="@string/title_activity_main_activityfor_employer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PostJobForm" />
+        <activity
+            android:name=".MainActivityJobSeeker"
+            android:label="@string/title_activity_main_job_seeker"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Application_Activity"></activity>
+    </application>
+
+</manifest>

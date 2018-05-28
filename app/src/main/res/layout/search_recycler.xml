@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/default_gap"
+    android:layout_marginEnd="@dimen/default_gap"
+    android:layout_marginStart="@dimen/default_gap"
+    android:layout_marginTop="@dimen/default_gap"
+    android:animateLayoutChanges="false"
+    android:animationCache="true"
+    android:background="@drawable/border"
+    android:clipToPadding="false"
+    android:padding="@dimen/default_gap">
+
+    <TextView
+        android:id="@+id/titlejob1"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:text="@string/job_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gender1"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/titlejob1"
+        android:layout_toEndOf="@+id/titlejob1"
+        android:text="@string/gender" />
+
+    <TextView
+        android:id="@+id/city1"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titlejob1"
+        android:text="@string/city" />
+
+    <TextView
+        android:id="@+id/company1"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlejob1"
+        android:layout_toEndOf="@+id/city1"
+        android:text="@string/company_name" />
+
+    <TextView
+        android:id="@+id/typejob1"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edu1"
+        android:text="@string/typejob" />
+
+    <TextView
+        android:id="@+id/age1"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/typejob1"
+        android:layout_toEndOf="@+id/typejob1"
+        android:text="@string/age" />
+
+    <TextView
+        android:id="@+id/date1"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/gender1"
+        android:layout_alignTop="@+id/typejob1"
+        android:text="@string/date" />
+
+    <TextView
+        android:id="@+id/edu1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/city1"
+        android:text="@string/education" />
+
+    <ImageButton
+        android:id="@+id/apply"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/typejob1"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/borde1"
+        android:contentDescription="@string/apply"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/yes1" />
+
+    <ImageButton
+        android:id="@+id/favorite"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/age1"
+        android:layout_below="@+id/typejob1"
+        android:layout_marginEnd="-156dp"
+        android:background="@drawable/borde1"
+        android:contentDescription="@string/favorites"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/favorite" />
+
+
+</RelativeLayout>
+
+
+
